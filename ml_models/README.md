@@ -25,6 +25,8 @@ pip list --format=freeze > requirements_intel.txt
 conda deactivate
 ```
 
+https://www.youtube.com/watch?v=0CnfPGW-UvQ
+
 
 ```bash
 .
