@@ -1,0 +1,14 @@
+2023-02-27 21:58:21.118 | INFO     | __main__:<module>:30 - {"platform": "Linux", "platform-release": "5.15.0-60-generic", "platform-version": "#66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023", "architecture": "x86_64", "processor": "x86_64", "ram": "31 GB", "cores": 6, "threads": 2, "python-version": "3.9.16"}
+2023-02-27 21:58:21.119 | INFO     | __main__:<module>:31 - None
+2023-02-27 21:58:21.119 | INFO     | __main__:<module>:32 - Intel(R) oneAPI Math Kernel Library Version 2023.0-Product Build 20221128 for Intel(R) 64 architecture applications
+2023-02-27 21:58:21.146 | INFO     | __main__:<module>:34 - (398, 30)
+2023-02-27 21:58:21.146 | INFO     | __main__:<module>:35 - (171, 30)
+2023-02-27 21:58:22.787 | INFO     | __main__:<module>:47 - with context manager: true, backend: loky, n_jobs = 1, time taken: 1.6333417892456055
+2023-02-27 21:58:25.121 | INFO     | __main__:<module>:59 - with context manager: true, backend: loky, n_jobs = -1, time taken: 2.3212246894836426
+2023-02-27 21:58:25.647 | INFO     | __main__:<module>:71 - with context manager: true, backend: multiprocessing, n_jobs = -1, time taken: 0.5096983909606934
+2023-02-27 21:58:27.342 | INFO     | __main__:<module>:83 - with context manager: true, backend: threading, n_jobs = -1, time taken: 1.6814584732055664
+2023-02-27 21:58:29.700 | INFO     | __main__:<module>:94 - with context manager: true, backend: dask, n_jobs = -1, time taken: 2.300710916519165
+2023-02-27 21:58:39.101 | INFO     | __main__:<module>:105 - with context manager: true, backend: ipyparallel, n_jobs = -1, time taken: 2.52034330368042
+2023-02-27 21:58:49.231 | INFO     | __main__:<module>:113 - with context manager: true, backend: ray, n_jobs = -1, time taken: 6.549389123916626
+2023-02-27 21:58:57.794 | INFO     | __main__:<module>:121 - with context manager: true, backend: spark, n_jobs = -1, time taken: 8.514942407608032
+2023-02-27 21:59:10.948 | INFO     | __main__:<module>:130 - with context manager: true, backend: ray, n_jobs = -1, time taken: 13.153383255004883

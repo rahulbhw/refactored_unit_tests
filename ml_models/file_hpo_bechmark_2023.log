@@ -1,0 +1,14 @@
+2023-02-27 21:55:04.974 | INFO     | __main__:<module>:30 - {"platform": "Linux", "platform-release": "5.15.0-60-generic", "platform-version": "#66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023", "architecture": "x86_64", "processor": "x86_64", "ram": "31 GB", "cores": 6, "threads": 2, "python-version": "3.8.16"}
+2023-02-27 21:55:04.974 | INFO     | __main__:<module>:31 - None
+2023-02-27 21:55:04.974 | INFO     | __main__:<module>:32 - mkl not installed
+2023-02-27 21:55:04.983 | INFO     | __main__:<module>:34 - (398, 30)
+2023-02-27 21:55:04.983 | INFO     | __main__:<module>:35 - (171, 30)
+2023-02-27 21:55:10.974 | INFO     | __main__:<module>:47 - with context manager: true, backend: loky, n_jobs = 1, time taken: 5.983431100845337
+2023-02-27 21:55:13.445 | INFO     | __main__:<module>:59 - with context manager: true, backend: loky, n_jobs = -1, time taken: 2.45269775390625
+2023-02-27 21:55:14.753 | INFO     | __main__:<module>:71 - with context manager: true, backend: multiprocessing, n_jobs = -1, time taken: 1.290970802307129
+2023-02-27 21:55:20.376 | INFO     | __main__:<module>:83 - with context manager: true, backend: threading, n_jobs = -1, time taken: 5.607787370681763
+2023-02-27 21:55:37.288 | INFO     | __main__:<module>:94 - with context manager: true, backend: dask, n_jobs = -1, time taken: 16.855729818344116
+2023-02-27 21:55:46.761 | INFO     | __main__:<module>:105 - with context manager: true, backend: ipyparallel, n_jobs = -1, time taken: 2.616835355758667
+2023-02-27 21:55:59.097 | INFO     | __main__:<module>:113 - with context manager: true, backend: ray, n_jobs = -1, time taken: 9.162803173065186
+2023-02-27 21:56:08.961 | INFO     | __main__:<module>:121 - with context manager: true, backend: spark, n_jobs = -1, time taken: 9.820476293563843
+2023-02-27 21:56:54.129 | INFO     | __main__:<module>:130 - with context manager: true, backend: ray, n_jobs = -1, time taken: 45.15925574302673
