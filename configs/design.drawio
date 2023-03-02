@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="X9kGrtUg7cLcVPn8wSHQ" name="Page-1">
+        <mxGraphModel dx="1429" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="check dir and configs are present or not, if read from local if not then read from cloud config store if the required env variables are present or stop the execution.&lt;br&gt;&lt;br&gt;read file should have a flag saying download latest which will fetch the latest data and config even if the files is present in local" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="20" width="160" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="while reading the data check if the optimized data schema is present or not if then use it, if running with download_latest flag or schema is not present download data, read sample, use config to generate schema store in local and read full data with optimized data types." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="40" width="130" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
